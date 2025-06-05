@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Downloadable Images</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .image-box {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    a.download {
+      display: block;
+      margin-top: 10px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Download My Images</h1>
+
+  <div class="container">
+    <div class="image-box">
+      <img src="images/sample1.jpg" alt="Image 1">
+      <a href="images/sample1.jpg" download class="download">Download</a>
+    </div>
+    <div class="image-box">
+      <img src="images/sample2.jpg" alt="Image 2">
+      <a href="images/sample2.jpg" download class="download">Download</a>
+    </div>
+  </div>
+
+</body>
+</html>
